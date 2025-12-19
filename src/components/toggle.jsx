@@ -15,6 +15,7 @@ function ThemeToggle() {
                 overview.setAttribute('data-theme', 'dark')
             }
             document.querySelector('.toggle-container').setAttribute('data-theme', 'dark')
+            document.querySelector('.top-card').setAttribute('data-theme', 'dark')
         } else {
             for (const card of cards) {
                 card.setAttribute('data-theme', 'light')
@@ -23,6 +24,7 @@ function ThemeToggle() {
                 overview.setAttribute('data-theme', 'light')
             }
             document.querySelector('.toggle-container').setAttribute('data-theme', 'light')
+            document.querySelector('.top-card').setAttribute('data-theme', 'light')
         }
     }, [isDarkMode])
 

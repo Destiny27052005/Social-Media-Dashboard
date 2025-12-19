@@ -9,6 +9,7 @@ function App() {
   }
   return (
     <>
+    <div className="top-card"></div>
       <div className="container">
 
         <div className='flex'>
